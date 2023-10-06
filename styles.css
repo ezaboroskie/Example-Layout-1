@@ -1,0 +1,64 @@
+
+/* Uncomment the background colors on the container elements to see their borders */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+#main-content-container{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#top-section-container{
+    /*background-color: purple;*/
+    height: 20vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+#top-content{
+    background-color: cornflowerblue;
+    height: 90%;
+    width: 93vw;
+}
+#bottom-section-container{
+    /*background-color: orange;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 98vw;
+    height: 100%;
+    margin-bottom: 2vh;
+}
+#left-side-content{
+    background-color: blue;
+    width: 15vw;
+    height: 90%;
+}
+#right-side-container{
+    /*background-color: darkgrey;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    height: 90%;
+}
+#mid-right-content{
+    background-color: brown;
+    width: 100%;
+    height: 75%;
+}
+#bottom-right-content{
+    background-color: blueviolet;
+    width: 100%;
+    height: 15%;
+}

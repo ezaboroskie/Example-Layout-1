@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Example Layout 1</title>
+</head>
+<body>
+<!-- This main-content-container is meant to hold the entire content of this page -->
+<!-- It functions as the primary flexbox container -->
+    <main id="main-content-container">
+    <!-- I've split the main flexbox into 2 smaller sections: top and bottom -->
+        <!-- The top container probably holds the header and nav links-->
+        <div id="top-section-container">
+            <div id="top-content"></div>
+        </div>
+        <!-- The bottom section holds the main content, sidebar, and footer-->
+        <div id="bottom-section-container">
+        <!-- The bottom section is divided into two halves: left and right-->
+            <div id="left-side-content"></div>
+        <!-- The right side container is split into two sections with the elements spaced evenly in a column-->
+            <div id="right-side-container">
+                <div id="mid-right-content"></div>
+                <div id="bottom-right-content"></div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
